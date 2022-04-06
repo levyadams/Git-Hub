@@ -1,10 +1,20 @@
-div {
+.first {
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 500px;
+}
+
+.flexbox {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: blue;
+    width: 80%;
 }
 
 button  {
@@ -14,6 +24,7 @@ button  {
     border: none;
     color: white;
     font-weight: 600;
+    margin: 0 10%;
     
 }
 
